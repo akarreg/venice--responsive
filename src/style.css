@@ -1,12 +1,13 @@
-body {
-  font-family: "Playpen Sans", cursive;
-
-  font-weight: 111300px;
-  font-size: xx-large;
+h1 {
+  font-family: "Playwrite CU", cursive;
 }
 
-h1 {
-  font-size: xx-large;
-  color: red;
-  font-weight: bolder;
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("images/hero-img.jpg");
+  aspect-ratio: 21/9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
 }
