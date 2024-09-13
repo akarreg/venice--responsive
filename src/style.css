@@ -9,9 +9,9 @@ body {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/hero-img.jpg);
+    url("images/hero-img.jpg");
   width: 100%;
-  aspect-ratio: 32/9;
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,7 +56,38 @@ header .button:hover {
   transition: 0.7s;
 }
 footer {
-  color: antiquewhite;
+  margin: 30px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/img-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: rgb(238, 204, 204);
+  padding: 40px 20px;
+  aspect-ratio: 32/9;
+}
+footer li {
+  list-style: none;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+footer h3 {
+  letter-spacing: 7px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
+}
+footer a,
+p {
+  color: rgb(153, 139, 120);
+  font-size: 20px;
 }
 @media (max-widht: 900px) {
   header h1 {
