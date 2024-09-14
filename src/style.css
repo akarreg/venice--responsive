@@ -1,9 +1,8 @@
 body {
-  background-color: rgb(52, 45, 45);
+  background-color: white;
+  max-width: 1400px;
 }
 .hero {
-  max-width: 1400px;
-  margin: 0 auto;
   color: rgb(203, 183, 183);
 }
 
@@ -55,8 +54,44 @@ header .button:hover {
   opacity: 0.7;
   transition: 0.7s;
 }
-footer {
+section {
+  max-width: 1000 px;
+  line-height: 1.5;
+  letter-spacing: 3px;
   margin: 30px;
+  background-color: rgb(246, 244, 246);
+  color: rgb(203, 183, 183);
+}
+main img {
+  width: 80%;
+  margin-left: 40px;
+  margin-top: 100px;
+}
+main h3 {
+  margin-top: 30px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  line-height: 1.5;
+}
+main h2 {
+  letter-spacing: 5px;
+  line-height: 1.5;
+  color: black;
+  opacity: 0.7;
+}
+
+main p {
+  margin-right: 30px;
+}
+.grid {
+  display: grid;
+}
+.grid-col-2 {
+  grid-template-columns: 1fr 1fr;
+}
+section {
+  max-width: 1400px;
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("images/img-3.jpg");
   background-size: cover;
@@ -66,6 +101,9 @@ footer {
   color: rgb(238, 204, 204);
   padding: 40px 20px;
   aspect-ratio: 32/9;
+}
+.grid-col-3 {
+  grid-template-columns: 1fr 2fr 2fr;
 }
 footer li {
   list-style: none;
@@ -79,26 +117,32 @@ footer h3 {
   letter-spacing: 7px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 20px;
-}
 footer a,
 p {
   color: rgb(153, 139, 120);
   font-size: 20px;
 }
-@media (max-widht: 900px) {
+@media (max-width: 900px) {
   header h1 {
     margin-top: 10px;
-    font-size: 7px;
+    font-size: 20x;
   }
   header h2 {
     font-size: 20px;
     margin-top: 30px;
   }
   header .button {
-    padding: 20px;
+    display: none;
+  }
+  main .text {
+    padding: 120px 20px 20px 20px;
+    margin: 120px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .img-responsives {
+    max-width: 100%;
   }
 }
