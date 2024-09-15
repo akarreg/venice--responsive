@@ -85,11 +85,12 @@ main p {
 }
 .grid {
   display: grid;
+  grid-gap: 30px;
 }
 .grid-col-2 {
   grid-template-columns: 1fr 1fr;
 }
-section {
+footer .grid {
   max-width: 1400px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -99,8 +100,9 @@ section {
   background-repeat: no-repeat;
   width: 100%;
   color: rgb(238, 204, 204);
-  padding: 40px 20px;
+  padding: 0px;
   aspect-ratio: 32/9;
+  margin: 0 px;
 }
 .grid-col-3 {
   grid-template-columns: 1fr 2fr 2fr;
@@ -115,6 +117,8 @@ footer li {
 }
 footer h3 {
   letter-spacing: 7px;
+  display: block;
+  text-align: center;
 }
 
 footer a,
@@ -144,5 +148,15 @@ p {
   }
   .img-responsives {
     max-width: 100%;
+  }
+  footer li {
+    text-align: center;
+  }
+  footer p {
+    margin-left: 60px;
+    margin-right: 36px;
+  }
+  footer a {
+    margin-left: 80px;
   }
 }
