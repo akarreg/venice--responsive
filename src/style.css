@@ -1,8 +1,9 @@
-body {
+.container {
   background-color: white;
   max-width: 1400px;
 }
 .hero {
+  max-width: 1400px;
   color: rgb(203, 183, 183);
 }
 
@@ -10,12 +11,13 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/hero-img.jpg");
   width: 100%;
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
   border: 1px solid rgb(140, 99, 99);
+  padding: 100px;
+  margin: 0 auto;
 }
 
 header h2 {
@@ -55,44 +57,51 @@ header .button:hover {
   transition: 0.7s;
 }
 section {
-  max-width: 1000 px;
+  max-width: 1200px;
   line-height: 1.5;
-  letter-spacing: 3px;
-  margin: 30px;
+  margin: 0 auto;
+  padding: 100px;
+
   background-color: rgb(246, 244, 246);
   color: rgb(203, 183, 183);
 }
 main img {
-  width: 80%;
-  margin-left: 40px;
-  margin-top: 100px;
+  width: 60%;
+  margin-left: 10px;
+  margin-top: 90px;
 }
 main h3 {
-  margin-top: 30px;
+  margin-top: 80px;
   font-size: 30px;
-  letter-spacing: 5px;
+  text-transform: uppercase;
   line-height: 1.5;
+  letter-spacing: 5px;
 }
 main h2 {
-  letter-spacing: 5px;
   line-height: 1.5;
   color: black;
   opacity: 0.7;
+  letter-spacing: 5px;
+}
+.secondary {
+  background-color: beige;
+}
+.text-center,
+h4 {
+  text-align: center;
 }
 
-main p {
-  margin-right: 30px;
-}
 .grid {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
 }
 .grid-col-2 {
   grid-template-columns: 1fr 1fr;
 }
-footer .grid {
-  max-width: 1400px;
-
+.grid-col-3-card {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("images/img-3.jpg");
   background-size: cover;
@@ -102,7 +111,6 @@ footer .grid {
   color: rgb(238, 204, 204);
   padding: 0px;
   aspect-ratio: 32/9;
-  margin: 0 px;
 }
 .grid-col-3 {
   grid-template-columns: 1fr 2fr 2fr;
@@ -138,16 +146,20 @@ p {
   header .button {
     display: none;
   }
-  main .text {
-    padding: 120px 20px 20px 20px;
-    margin: 120px;
+  section {
+    padding: 10px;
+  }
+  main h2,
+  h3 {
+    text-align: center;
   }
 
   .grid {
     grid-template-columns: 1fr;
   }
   .img-responsives {
-    max-width: 100%;
+    width: 100%;
+    display: block;
   }
   footer li {
     text-align: center;
