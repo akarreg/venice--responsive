@@ -1,5 +1,5 @@
 .container {
-  background-color: white;
+  background-color:white
   max-width: 1400px;
 }
 .hero {
@@ -56,7 +56,7 @@ header .button:hover {
   opacity: 0.7;
   transition: 0.7s;
 }
-section {
+.primer {
   max-width: 1200px;
   line-height: 1.5;
   margin: 0 auto;
@@ -64,33 +64,90 @@ section {
 
   background-color: rgb(246, 244, 246);
   color: rgb(203, 183, 183);
+  margin: 30px;
 }
-main img {
+.primer img {
   width: 60%;
   margin-left: 10px;
   margin-top: 90px;
 }
-main h3 {
+primer h3 {
   margin-top: 80px;
   font-size: 30px;
   text-transform: uppercase;
   line-height: 1.5;
   letter-spacing: 5px;
 }
-main h2 {
+primer h2 {
   line-height: 1.5;
   color: black;
   opacity: 0.7;
   letter-spacing: 5px;
 }
 .secondary {
-  background-color: beige;
-}
-.text-center,
-h4 {
+  max-width: 1200px;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 80px;
+  margin: 30px;
   text-align: center;
+
+  background-color: rgb(246, 244, 246);
+  color: rgb(203, 183, 183);
 }
 
+
+.secondary h2 {
+  line-height: 1.5;
+  color: black;
+  opacity: 0.7;
+  letter-spacing: 5px;
+  margin-top: 0px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.secondary h3{
+  line-height: 1.5;
+  color: black;
+  opacity: 0.7;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  text-align: center;
+ }
+
+  .secondary h4{
+    line-height: 1.5;
+  color: black;
+  opacity: 0.7;
+  letter-spacing: 3px;
+ 
+  text-align: center;}
+  .secondary p{
+    margin-left:  20px;
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+  .secondary .click{
+    background-color:rgb(239, 218, 221);
+  color: rgb(203, 183, 183);
+
+  padding: 16px 36px 16px 36px;
+  border: 1px solid rgb(137, 88, 88);
+  font-size: 30px;
+  border-radius: 17px;
+  letter-spacing:5px;
+  cursor: pointer;
+  line-height: 1.5;
+ 
+  text-align: none
+;
+  
+}
+
+  
+.card {
+  background-color: white;
+}
 .grid {
   display: grid;
   grid-gap: 20px;
@@ -103,16 +160,16 @@ h4 {
 }
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("images/img-3.jpg");
+    url("images/hero-img.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   color: rgb(238, 204, 204);
   padding: 0px;
-  aspect-ratio: 32/9;
+  
 }
-.grid-col-3 {
+.grid-col-3-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 footer li {
