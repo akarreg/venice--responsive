@@ -58,7 +58,7 @@ header .button:hover {
   transition: 0.7s;
 }
 .primer {
-  max-width: 1400px;
+  max-width: 100%;
   line-height: 1.5;
   margin: 30px;
   padding: 100px;
