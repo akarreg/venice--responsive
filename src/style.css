@@ -1,8 +1,12 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: blanchedalmond;
+}
+
 .container {
-  background-color: black;
+  max-width: 1400px;
+
   margin: 0 auto;
-  width: 100%;
-  border: 30px;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -43,6 +47,7 @@ header .button {
   letter-spacing: 7px;
   cursor: pointer;
   line-height: 1.5;
+  text-decoration: none;
 }
 header .button:hover {
   border: none;
@@ -53,7 +58,7 @@ header .button:hover {
   opacity: 0.7;
   transition: 0.7s;
 }
-.primer {
+section.primer {
   width: 100%;
   line-height: 1.5;
   margin: 0 auto;
@@ -83,7 +88,7 @@ primer h2 {
   display: block;
   width: 150%;
 }
-.secondary {
+section.secondary {
   width: 100%;
   line-height: 1.5;
   margin: 0 auto;
@@ -166,7 +171,7 @@ primer h2 {
 
 .grid {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 40px;
 }
 .grid-col-2 {
   grid-template-columns: 1fr 1fr;
@@ -208,7 +213,10 @@ p {
   color: rgb(153, 139, 120);
   font-size: 20px;
 }
-@media (max-width: 900px) {
+@media (max-width: 96
+
+
+0px) {
   header h1 {
     margin-top: 10px;
     font-size: 20x;
