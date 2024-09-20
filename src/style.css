@@ -19,7 +19,6 @@ header {
   margin: 0 auto;
   text-align: center;
   color: rgb(172, 155, 137);
-  padding: 50px;
 }
 
 header h2 {
@@ -63,8 +62,6 @@ section.primer {
   margin: 0 auto;
   background-color: white;
   color: rgb(203, 183, 183);
-  padding-left: 50px;
-  padding-right: 50px;
 }
 .primer img {
   width: 60%;
@@ -99,8 +96,6 @@ section.secondary {
   text-align: center;
   background-color: rgb(246, 244, 246);
   color: rgb(203, 183, 183);
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 section.card {
@@ -166,8 +161,7 @@ section.card {
 section .insta-media {
   width: 100%;
   margin: 0 auto;
-  padding-left: 50px;
-  padding-right: 50px;
+
   background-color: rgb(246, 244, 246);
   color: rgb(203, 183, 183);
 }
@@ -191,7 +185,7 @@ footer {
   background-repeat: no-repeat;
   margin: 0 auto;
   color: rgb(238, 204, 204);
-  padding: 50px;
+
   width: 100%;
 }
 .grid-col-3-narrow {
@@ -228,12 +222,19 @@ p {
   header .button {
     display: none;
   }
-  section {
-    padding: 10px;
+ 
   }
-  .text h2,
+  .text 
   h3 {
+    margin-top: 20px;
     text-align: center;
+   
+  }
+  .text h2{
+ margin-left: 130px;
+  }
+  .text p{
+    margin:20px;
   }
 
   .grid {
@@ -243,6 +244,10 @@ p {
   .img-responsive {
     width: 100%;
     display: block;
+    margin: 10px;
+  }
+  .card-text h2{
+    font-size: 40px;
   }
   .card-header {
     .img-responsives {
