@@ -151,7 +151,7 @@ section.card {
 }
 .card-footer .click {
   font-family: "Playwrite CU", cursive;
-  background-color: rgb(237, 231, 240);
+  background-color: rgb(230, 208, 241);
   color: black;
   opacity: 0.3;
   padding: 16px 36px 16px 36px;
@@ -216,10 +216,7 @@ p {
   color: rgb(153, 139, 120);
   font-size: 20px;
 }
-@media (max-width: 96
-
-
-0px) {
+@media (max-width: 960px) {
   header h1 {
     margin-top: 10px;
     font-size: 20x;
@@ -234,7 +231,7 @@ p {
   section {
     padding: 10px;
   }
-  main h2,
+  .text h2,
   h3 {
     text-align: center;
   }
